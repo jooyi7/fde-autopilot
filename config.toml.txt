@@ -1,0 +1,22 @@
+# Codex CLI Orchestration Configuration
+[agent]
+# 대회 환경의 /model 목록에서 Sol 6.1 또는 Terra 5.6을 기본으로 타겟팅
+default_model = "Sol-6.1"
+fallback_model = "Terra-5.6"
+approval_mode = "auto-edit"
+
+[context]
+# 에이전트가 항상 최우선으로 읽어야 할 지침서
+instructions_file = "AGENTS.md"
+ignore_patterns = [
+    "node_modules/**",
+    ".git/**",
+    "dist/**",
+    "build/**",
+    "__pycache__/**"
+]
+
+[execution]
+# 브라우저 미리보기 연결을 위한 바인딩 강제
+default_host = "0.0.0.0"
+timeout_seconds = 120
