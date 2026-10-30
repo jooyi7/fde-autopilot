@@ -15,7 +15,7 @@ echo "================================================================"
   echo "## 1. 필수 제출 문서 3종 및 증거 좌표 점검"
 } > "${AUDIT_REPORT}"
 
-for doc in SPEC.md CLAUDE.md HANDOFF.md; do
+for doc in SPEC.md Agents.md HANDOFF.md; do
   if [ -f "${WORKSPACE}/${doc}" ]; then
     LINES=$(wc -l < "${WORKSPACE}/${doc}")
     echo "- ✅ \`${doc}\` 존재함 (${LINES} lines)" | tee -a "${AUDIT_REPORT}"
