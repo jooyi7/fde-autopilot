@@ -1,4 +1,4 @@
-# 🧭 SK하이닉스 AI 해커톤 실전 타임라인 & 파이프라인 완벽 가이드 (`USER_GUIDE.md`)
+# 🧭 파이프라인 완벽 가이드 (`USER_GUIDE.md`)
 
 > **💡 핵심 개념: `git clone`을 했다는 건 무슨 뜻인가요?**
 > 대회장 웹 IDE는 내 PC의 파일을 마우스로 끌어다 놓는(업로드) 것이 금지되어 있습니다. 대신 웹 IDE의 터미널(검은색 명령어 창)에서 `git clone https://github.com/jooyi7/fde-autopilot.git` 명령어를 입력하면, GitHub에 있는 내 파일들이 시험장 컴퓨터(`workspace`) 안으로 **통째로 다운로드**됩니다.
